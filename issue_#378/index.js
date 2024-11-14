@@ -1,4 +1,4 @@
-const data = [1,2,3,4,5];
+const data = [7, 4, 5, 11, 15, 9, 2, 18, 20, 12, 25, 16, 14, 25];
 
 let tallest_building_so_far = 0;
 let visible_buildings = 0;
