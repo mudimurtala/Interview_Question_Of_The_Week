@@ -13,3 +13,7 @@ stock_prices.forEach((price) => {
         lowest_price = price;
     }
 });
+
+
+console.log(highest_profit);
+console.log('Script loaded successfully');
