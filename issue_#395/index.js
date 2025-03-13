@@ -17,4 +17,4 @@ function getSemitoneNumber(note) {
     return noteOrder[noteName] + (octave * 12);
 }
 
-console.log(getSemitoneNumber("C4"))
+console.log(getSemitoneNumber("A4"))
