@@ -17,7 +17,7 @@ Write a function that takes a list of piano keys played in sequence and returns 
 
 > findLargestInterval(['E2', 'C3', 'G3', 'C8'])
 > 53
-
+```
 
 ## Solution
 The question/challenge is solved using JavaScript.
