@@ -17,4 +17,21 @@ function getSemitoneNumber(note) {
     return noteOrder[noteName] + (octave * 12);
 }
 
-console.log(getSemitoneNumber("A4"))
+// Function to find the largest interval between consecutive piano notes
+function findLargestInterval(notes) {
+    // Convert each note into its semitone number
+    const semitoneNumbers = notes.map(getSemitoneNumber);
+
+    // Initialize maxDifference to 0
+    let maxDifference = 0;
+
+    // Loop through the array to find the largest difference between consecutive semitones
+    for (let i = 0; i < semitoneNumbers.length - 1; i++) {
+        let difference = Math.abs(semitoneNumbers[i + 1] - semitoneNumbers[i]);
+        if (difference > maxDifference) {
+            maxDifference = difference; // Update maxDifference if a larger gap is found
+        }
+    }
+
+    return maxDifference; // Return the largest interval
+}
