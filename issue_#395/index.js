@@ -35,3 +35,8 @@ function findLargestInterval(notes) {
 
     return maxDifference; // Return the largest interval
 }
+
+// Example test cases
+console.log(findLargestInterval(['A0', 'C1', 'G1', 'C2'])); // Output: 7
+console.log(findLargestInterval(['C4', 'G4', 'C5', 'G3'])); // Output: 17
+console.log(findLargestInterval(['E2', 'C3', 'G3', 'C8'])); // Output: 53
