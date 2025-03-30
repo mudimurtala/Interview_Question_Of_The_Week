@@ -11,11 +11,7 @@ function findLongestStreak(array, goal) {
         }
     }
 
-    if (longestStreak >= goal) {
-        return longestStreak;
-    } else {
-        return 0;
-    }
+    return longestStreak >= goal ? longestStreak : 0;
     
 }
 
