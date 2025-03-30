@@ -6,6 +6,8 @@ function findLongestStreak(array, goal) {
         if (array[i] === true) {
             currentStreak++;
             longestStreak = Math.max(longestStreak, currentStreak);
+        } else {
+            currentStreak = 0;
         }
     }
 }
