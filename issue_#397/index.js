@@ -11,8 +11,8 @@ function findLongestStreak(array, goal) {
         }
     }
 
-    if (longest >= goal) {
-        return longest;
+    if (longestStreak >= goal) {
+        return longestStreak;
     } else {
         return 0;
     }
@@ -22,3 +22,8 @@ function findLongestStreak(array, goal) {
 
 // Examples
 
+console.log(findLongestStreak([true, true, false, true, true, true], 3));
+console.log(findLongestStreak([true, true, true, false, true], 4));
+console.log(findLongestStreak([true, true, true, true], 2));
+console.log(findLongestStreak([false, false, false], 1));
+console.log(findLongestStreak([true, true, true, true, true], 5));
