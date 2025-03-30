@@ -18,3 +18,7 @@ function findLongestStreak(array, goal) {
     }
     
 }
+
+
+// Examples
+
