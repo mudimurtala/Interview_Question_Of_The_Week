@@ -23,3 +23,4 @@ console.log(findLongestStreak([true, true, true, false, true], 4));
 console.log(findLongestStreak([true, true, true, true], 2));
 console.log(findLongestStreak([false, false, false], 1));
 console.log(findLongestStreak([true, true, true, true, true], 5));
+console.log(findLongestStreak([false, false, false, false, false, false, false,], 7));
