@@ -10,4 +10,11 @@ function findLongestStreak(array, goal) {
             currentStreak = 0;
         }
     }
+
+    if (longest >= goal) {
+        return longest;
+    } else {
+        return 0;
+    }
+    
 }
