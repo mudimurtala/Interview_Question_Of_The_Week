@@ -5,9 +5,9 @@ function findingLargestDiff(arrayList) {
         return hour * 60 + minutes;
     }
 
-    const convertedToNums = arrayList.map(timeToMinutes);
+    const convertedToNumbers = arrayList.map(timeToMinutes);
 
-    convertedToNums.sort((a, b) => a - b);
+    convertedToNumbers.sort((a, b) => a - b);
 
     let greatestDiff = 0;
 
