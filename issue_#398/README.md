@@ -20,3 +20,6 @@ findLongestTimeGap(['14:00', '09:00', '15:00', '10:30'])
 findLongestTimeGap(['08:00', '10:00', '10:00', '14:00'])
 240
 ```
+
+## Solution
+The question/challenge is solved using JavaScript.
