@@ -20,3 +20,15 @@ function findingLargestDiff(arrayList) {
 
     return greatestDifference;
 }
+
+// examples
+
+arrayOne = ['14:00', '09:00', '15:00', '10:30'];
+arrayTwo = ['08:00', '10:00', '10:00', '14:00'];
+arrayThree = ['09:00', '11:00'];
+arrayFour = ['12:00'];
+
+console.log(findingLargestDiff(arrayOne));
+console.log(findingLargestDiff(arrayTwo));
+console.log(findingLargestDiff(arrayThree));
+console.log(findingLargestDiff(arrayFour));
