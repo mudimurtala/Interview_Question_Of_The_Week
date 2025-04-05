@@ -2,22 +2,21 @@ function findingLargDiff(arrayList) {
 
     function timeToMinutes(timeStr) {
         const [hour, minutes] = timeStr.split(':').map(Number);
-        return hour * 60 + minutes
+        return hour * 60 + minutes;
     }
 
-    for (let i = 0; i < arrayList.length; i++) {
-        const convertedToNums[] = timeToMinutes(arrayList);
-    }
+    const convertedToNums = arrayList.map(timeToMinutes);
 
-    convertedToNums = sort(convertedToNums)
+    convertedToNums.sort((a, b) => a - b);
 
-    function diffBtwtwo(arr) {
-        for (let i, j = 0, 1; i, j < arr.length; i++, j++) {
-            diff = arr[j] - arr[i];
-            if (diff > greatestDiff) {
-                greatestDiff = diff;
-            }
+    let greatestDiff = 0;
+
+    for (let i = 0; i < convertedToNums.length - 1; i++) {
+        const diff = convertedToNums[i + 1] - convertedToNums[i];
+        if (diff > greatestDiff) {
+            greatestDiff = diff;
         }
-        return greatestDiff;
     }
+
+    return greatestDiff;
 }
