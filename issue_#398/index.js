@@ -12,9 +12,9 @@ function findingLargestDiff(arrayList) {
     let greatestDifference = 0;
 
     for (let i = 0; i < convertedToNumbers.length - 1; i++) {
-        const diff = convertedToNumbers[i + 1] - convertedToNumbers[i];
-        if (diff > greatestDifference) {
-            greatestDifference = diff;
+        const difference = convertedToNumbers[i + 1] - convertedToNumbers[i];
+        if (difference > greatestDifference) {
+            greatestDifference = difference;
         }
     }
 
