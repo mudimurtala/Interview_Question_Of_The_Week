@@ -11,8 +11,8 @@ function findingLargestDiff(arrayList) {
 
     let greatestDiff = 0;
 
-    for (let i = 0; i < convertedToNums.length - 1; i++) {
-        const diff = convertedToNums[i + 1] - convertedToNums[i];
+    for (let i = 0; i < convertedToNumbers.length - 1; i++) {
+        const diff = convertedToNumbers[i + 1] - convertedToNumbers[i];
         if (diff > greatestDiff) {
             greatestDiff = diff;
         }
