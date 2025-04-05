@@ -24,10 +24,10 @@ function findingLargestDiff(arrayList) {
 
 // examples
 
-arrayOne = ['14:00', '09:00', '15:00', '10:30'];
-arrayTwo = ['08:00', '10:00', '10:00', '14:00'];
-arrayThree = ['09:00', '11:00'];
-arrayFour = ['12:00'];
+arrayOne = ['18:40', '04:10', '11:00', '22:20', '02:50'];
+arrayTwo = ['05:19', '20:30', '19:00', '13:45'];
+arrayThree = ['01:55', '10:55'];
+arrayFour = ['15:15'];
 
 console.log(findingLargestDiff(arrayOne));
 console.log(findingLargestDiff(arrayTwo));
