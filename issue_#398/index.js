@@ -1,4 +1,4 @@
-function findingLargDiff(arrayList) {
+function findingLargestDiff(arrayList) {
 
     function timeToMinutes(timeStr) {
         const [hour, minutes] = timeStr.split(':').map(Number);
