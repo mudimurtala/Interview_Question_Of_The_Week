@@ -9,14 +9,14 @@ function findingLargestDiff(arrayList) {
 
     convertedToNumbers.sort((a, b) => a - b);
 
-    let greatestDiff = 0;
+    let greatestDifference = 0;
 
     for (let i = 0; i < convertedToNumbers.length - 1; i++) {
         const diff = convertedToNumbers[i + 1] - convertedToNumbers[i];
-        if (diff > greatestDiff) {
-            greatestDiff = diff;
+        if (diff > greatestDifference) {
+            greatestDifference = diff;
         }
     }
 
-    return greatestDiff;
+    return greatestDifference;
 }
